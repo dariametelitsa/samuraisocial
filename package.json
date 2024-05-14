@@ -1,7 +1,7 @@
 {
   "name": "samuraisocial",
   "author": "Daria Metelitsa <dariametelitsa@yandex.ru>",
-  "private": true,
+  "private": "true",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
