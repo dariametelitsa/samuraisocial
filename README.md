@@ -14,12 +14,17 @@
 - для yarn
 	- `yarn build`
 	- `yarn deploy`
-
+- на github  <br/>
+  
+  <img src="doc/github/deploy.jpg" alt="instructions" width="400"/> 
+    <br/>
+  <img src="doc/github/deploy-link.png" alt="instructions" width="400"/> 
+    <br/>
 
 ## Чтобы получать обновления из удаленного репозитория:
 1. Сделать `fork` этого проекта (одна из четырех кнопок в правом верхнем углу github -> `create fork`).  <br/>
 
-    <img src="doc/github/to-fork.jpg" alt="instructions" width="800"/>  <br/>
+    <img src="doc/github/to-fork.jpg" alt="instructions" width="800"/>  
 
 
 2. Клонировать проект на компьютер из своего репозитория:  <br/>
