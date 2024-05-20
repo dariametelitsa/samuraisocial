@@ -9,7 +9,7 @@ function App() {
         <AppBlock>
             <Logotype src={logotype} alt="logotype"/>
             <Button onClick={() => {
-                confirm('Are you ready?') ? setText('😏') : setText('😐')
+                confirm('Ты уверена? Назад дороги не будет') ? setText('😏') : setText('😐')
             }}>{text}</Button>
         </AppBlock>
     )
