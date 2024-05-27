@@ -1,9 +1,9 @@
 import logo from './../../assets/logotype.svg';
-import { style } from './Header.style.ts';
+import { Style } from './Header.style.ts';
 
 export const Header = () => {
     return (
-        <style.Header>
+        <Style.Header>
             <img src={logo} alt="logotype"/>
             <nav>
                 <ul>
@@ -15,6 +15,6 @@ export const Header = () => {
 
                 </div>
             </nav>
-        </style.Header>
+        </Style.Header>
     );
 };

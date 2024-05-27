@@ -4,6 +4,6 @@ const Header = styled.header`
     display: grid;
 `
 
-export const style = {
+export const Style = {
     Header
 }
