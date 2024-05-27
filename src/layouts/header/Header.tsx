@@ -1,5 +1,6 @@
 import logo from './../../assets/logotype.svg';
 import { Style } from './Header.style.ts';
+import { UserElement } from "../../components/userElement/UserElement.tsx";
 
 export const Header = () => {
     return (
@@ -12,7 +13,7 @@ export const Header = () => {
                     <li><a href={'/'}>img 3</a></li>
                 </ul>
                 <div>
-
+                    <UserElement />
                 </div>
             </nav>
         </Style.Header>

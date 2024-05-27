@@ -8,15 +8,16 @@ export const theme = {
         font: '#363636',
 
         grey: {
+            black: '#000000',
             dark: '#787878',
             light: '#F5F5F5',
         },
     },
 
     fontSize: {
-        headline: '18px',
-        title: '12px',
-        main: '12px',
-        small: '8px',
+        headline: 18,
+        title: 12,
+        main: 12,
+        small: 8,
     },
 };
