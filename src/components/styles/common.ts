@@ -16,3 +16,4 @@ export const font = ({family, weight, color, lineHeight, Fmin, Fmax}: FontProps)
     lineHeight: ${lineHeight || 1.2};
     font-size: calc((100vw - 360px) / (1366 - 360) * (${Fmax} - ${Fmin}) + ${Fmin}px);
 `;
+
