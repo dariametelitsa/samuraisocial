@@ -3,7 +3,7 @@ import { Header } from "./layouts/header/Header.tsx";
 
 function App() {
     return (
-        <div>
+        <div className={'container'}>
             <Header/>
             <main>
             </main>
