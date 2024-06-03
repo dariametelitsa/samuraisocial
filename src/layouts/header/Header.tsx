@@ -4,6 +4,7 @@ import { UserElement } from "../../components/userElement/UserElement.tsx";
 import { SvgIcon } from "../../components/SvgIcon.tsx";
 import { DropDownMenu } from "../../components/dropDownMenu/DropDownMenu.tsx";
 import { dropDownMenuItems } from "../../data/data.ts";
+import { v1 } from "uuid";
 
 export const Header = () => {
     return (
@@ -17,7 +18,7 @@ export const Header = () => {
                     <li><a href={'/'}><SvgIcon iconId={'notification'}/></a></li>
                 </Style.Menu>
                 <Style.UserMenu>
-                    <UserElement />
+                    <UserElement id={v1()} name={'Настя Барашкова'} smallText={'@1234567890'} />
                     <DropDownMenu menuItems={dropDownMenuItems}/>
                 </Style.UserMenu>
             </Style.Navigation>
