@@ -1,10 +1,5 @@
-// @flow 
-import * as React from 'react';
 
-type Props = {
-    
-};
-export const Dialog = (props: Props) => {
+export const Dialog = () => {
     return (
         <div>
 
