@@ -1,12 +1,14 @@
 import { PersonsDialogType } from "../../../data/types.ts";
 import { UserElement } from "../../../components/userElement/UserElement.tsx";
+import { StyleLayout } from "../../layoutStyles.ts";
 
 type SideDialogsProps = {
     persons: PersonsDialogType[]
 };
+
 export const SideDialogs = ({persons}: SideDialogsProps) => {
     return (
-        <div>
+        <StyleLayout.SideBlock>
             <h2>Диалоги</h2>
             <ul>
                 {persons.map(person => {
@@ -17,6 +19,6 @@ export const SideDialogs = ({persons}: SideDialogsProps) => {
                     )
                 })}
             </ul>
-        </div>
+        </StyleLayout.SideBlock>
     );
 };
