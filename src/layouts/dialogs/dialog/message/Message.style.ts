@@ -6,11 +6,11 @@ const Message = styled.div<{fromMe: boolean}>`
     width: 100%;
     max-width: 70%;
     margin: 20px;
-    ${props => props.fromMe ?  flexWrapper({gap: '16px'}) : flexWrapper({gap: '16px', direction: "row-reverse"})};
+    ${props => props.fromMe ?  flexWrapper({gap: '16px', align: 'end'}) : flexWrapper({gap: '16px', direction: "row-reverse", align: 'end'})};
     align-self: ${props => props.fromMe ? 'start' : 'end' };
     
-    & $(SvgIcon) {
-        flex-grow: 1;
+    & svg {
+        min-width: fit-content;
     }
 `;
 
