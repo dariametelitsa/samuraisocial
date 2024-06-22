@@ -8,10 +8,10 @@ type DropDownMenuProps = {
 };
 export const DropDownMenu = ({menuItems}: DropDownMenuProps) => {
 
-    const [open, isOpen] = useState(false);
+    const [open, setOpen] = useState(false);
 
     const onClickHandler = () => {
-        isOpen(prev => !prev);
+        setOpen(prev => !prev);
     }
 
     return (

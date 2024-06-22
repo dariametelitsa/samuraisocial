@@ -5,6 +5,14 @@ const Input = styled.input `
     border-radius: 6px;
 `;
 
+const Textarea = styled.textarea `
+    padding: 4px 10px;
+    border-radius: 6px;
+    resize: none;
+    width: 100%;
+`;
+
 export const Style = {
-    Input
+    Input,
+    Textarea
 }

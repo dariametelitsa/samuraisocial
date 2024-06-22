@@ -11,6 +11,7 @@ const DropMenu = styled.ul `
     max-width: 300px;
     width: max-content;
     border: 1px solid ${theme.colors.accent};
+    background-color: ${theme.colors.bgBlock};
 `;
 
 const MenuItem = styled.li `

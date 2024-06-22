@@ -2,8 +2,7 @@ import { Style } from "./Friends.style.ts";
 import avatar from '../../../../assets/avatars/avatar4.jpg';
 import { FriendItem } from "./Friend.tsx";
 
-type FriendsProps = {
-};
+
 type friendsType = {
     avatar: string
     name: string
@@ -32,7 +31,7 @@ const friends: friendsType[] = [
     },
 ];
 
-export const Friends = ({}: FriendsProps) => {
+export const Friends = () => {
     return (
         <Style.Friends>
             <h3>Друзья</h3>

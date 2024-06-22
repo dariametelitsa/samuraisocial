@@ -7,11 +7,12 @@ type SendMessageProps = {
     buttonTitle: string
     iconId?: string
     sendMessage: () => void
+    multiline?: boolean
 };
-export const SendMessage = ({placeholder, buttonTitle, iconId, sendMessage}: SendMessageProps) => {
+export const SendMessage = ({placeholder, buttonTitle, iconId, sendMessage, multiline}: SendMessageProps) => {
     return (
         <Style.SendMessage>
-            <TextInput placeholder={placeholder}/>
+            <TextInput placeholder={placeholder} multiline={multiline}/>
             <ButtonWithIcon title={buttonTitle} iconId={iconId} onClick={sendMessage}/>
         </Style.SendMessage>
     );
