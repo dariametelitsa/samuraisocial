@@ -4,6 +4,7 @@ import { StyleLayout } from "../../layoutStyles.ts";
 import { v1 } from "uuid";
 import { Message } from "./message/Message.tsx";
 import avatar from './../../../assets/avatars/avatar4.jpg';
+import { SendMessage } from "../../../components/sendMessage/SendMessage.tsx";
 
 type messageType = {
     id: string
@@ -55,6 +56,7 @@ export const Dialog = () => {
                              fromMe={fromMe}/>
                 )
             })}
+            <SendMessage placeholder={'Введи сообщение'} buttonTitle={"Отправить"} iconId={'news'} sendMessage={() => {}}/>
         </StyleLayout.MainBlock>
     );
 };
