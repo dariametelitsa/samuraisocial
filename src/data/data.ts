@@ -55,4 +55,5 @@ export const personsForDialogs: PersonsDialogType[] = [
         smallText: 'Поминутно жалуются, что у нас нет людей практических; что  политических людей.',
         isOnline: false,
     },
+
 ];

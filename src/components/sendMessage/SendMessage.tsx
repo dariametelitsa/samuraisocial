@@ -5,7 +5,7 @@ import { Style } from "./SendMessage.style.ts";
 type SendMessageProps = {
     placeholder: string
     buttonTitle: string
-    iconId: string
+    iconId?: string
     sendMessage: () => void
 };
 export const SendMessage = ({placeholder, buttonTitle, iconId, sendMessage}: SendMessageProps) => {
