@@ -1,35 +1,8 @@
 import { Style } from "./Friends.style.ts";
 import avatar from '../../../../assets/avatars/avatar4.jpg';
 import { FriendItem } from "./Friend.tsx";
+import { friends } from "../../../../data/data.ts";
 
-
-type friendsType = {
-    avatar: string
-    name: string
-    link: string
-}
-const friends: friendsType[] = [
-    {
-        avatar: 'string',
-        name: 'Феня Р.',
-        link: '#1',
-    },
-    {
-        avatar: 'string',
-        name: 'Ганя И.',
-        link: '#1',
-    },
-    {
-        avatar: 'string',
-        name: 'Аглая Е.',
-        link: '#1',
-    },
-    {
-        avatar: 'string',
-        name: 'Лев М.',
-        link: '#1',
-    },
-];
 
 export const Friends = () => {
     return (
@@ -42,7 +15,6 @@ export const Friends = () => {
                     )
                 })}
             </Style.FriendsList>
-
         </Style.Friends>
     );
 };

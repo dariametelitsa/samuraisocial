@@ -33,3 +33,9 @@ export type messageType = {
     isLiked: boolean
     time: string
 };
+
+export type friendsType = {
+    avatar: string
+    name: string
+    link: string
+}

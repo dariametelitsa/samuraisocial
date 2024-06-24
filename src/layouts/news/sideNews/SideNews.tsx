@@ -2,10 +2,8 @@ import { StyleLayout } from "../../layoutStyles.ts";
 import { Friends } from "./friends/Friends.tsx";
 import { Search } from "../../../components/search/Search.tsx";
 
-type SideNewsProps = {
 
-};
-export const SideNews = ({}: SideNewsProps) => {
+export const SideNews = () => {
     return (
         <StyleLayout.SideBlock>
             <Friends/>

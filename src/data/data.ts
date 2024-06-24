@@ -1,4 +1,4 @@
-import { dropDownLinksType, messageType, PersonsDialogType, PostType } from "./types.ts";
+import { dropDownLinksType, friendsType, messageType, PersonsDialogType, PostType } from "./types.ts";
 import { v1 } from "uuid";
 
 export const dropDownMenuItems: dropDownLinksType[] = [
@@ -185,5 +185,28 @@ export const messages: messageType[] = [
         text: 'В связи с этим нужно подчеркнуть, что чернозём химически переносит глей. Бурозём разрушаем. Лесополоса, в сочетании с традиционными агротехническими приемами, отталкивает уровень грунтовых вод.',
         isLiked: true,
         time: Date(),
+    },
+];
+
+export const friends: friendsType[] = [
+    {
+        avatar: 'string',
+        name: 'Феня Р.',
+        link: '#1',
+    },
+    {
+        avatar: 'string',
+        name: 'Ганя И.',
+        link: '#1',
+    },
+    {
+        avatar: 'string',
+        name: 'Аглая Е.',
+        link: '#1',
+    },
+    {
+        avatar: 'string',
+        name: 'Лев М.',
+        link: '#1',
     },
 ];
