@@ -26,7 +26,7 @@ export const Dialog = () => {
                              fromMe={fromMe}/>
                 )
             })}
-            <SendMessage placeholder={'Введи сообщение'} buttonTitle={"Отправить"} iconId={'news'} sendMessage={() => {}}/>
+            <SendMessage placeholder={'Введи сообщение'} buttonTitle={"Отправить"} iconId={'send'} sendMessage={() => {}}/>
         </StyleLayout.MainBlock>
     );
 };

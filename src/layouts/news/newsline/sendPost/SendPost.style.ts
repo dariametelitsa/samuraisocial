@@ -4,6 +4,7 @@ import { flexWrapper } from "../../../../components/styles/common.ts";
 const SendPost = styled.div `
     ${flexWrapper({align: 'start', gap: '20px'})};
     width: 100%;
+    margin-bottom: 30px;
 `;
 
 const Avatar = styled.img `

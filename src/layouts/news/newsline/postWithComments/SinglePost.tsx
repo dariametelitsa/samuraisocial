@@ -15,7 +15,7 @@ export const SinglePost = ({person, postText, likes, date}: SinglePostProps) => 
         <Style.SinglePost>
             <UserElement id={person.id} name={person.name} smallText={date} avatar={avatar} isOnline={person.isOnline}/>
             <Style.Likes>
-                {likes ? <SvgIcon iconId={'news'}/> : <SvgIcon iconId={'message'}/>}
+                {likes ? <SvgIcon iconId={'like'}/> : <SvgIcon iconId={'like'}/>}
                 <span>{likes}</span>
             </Style.Likes>
             <Style.Text>{postText}</Style.Text>

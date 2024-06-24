@@ -15,7 +15,7 @@ export const PostWithComments = ({person, postText, likes, date, comments}: Post
                     })
                 }
             </Style.CommentsList>
-            <SendMessage placeholder={'Оставить комментарий'} buttonTitle={'Отправить'} iconId={'news'} sendMessage={() => {}}/>
+            <SendMessage placeholder={'Оставить комментарий'} buttonTitle={'Отправить'} iconId={'send'} sendMessage={() => {}}/>
         </Style.PostWithComments>
     );
 };

@@ -17,7 +17,7 @@ export const Message = ({avatar, text, date, like, fromMe}: MessageProps) => {
                 <p>{text}</p>
                 <time>{date}</time>
             </Style.TextField>
-            {like && <SvgIcon iconId={'news'}/>}
+            {like && <SvgIcon iconId={'like'}/>}
         </Style.Message>
     );
 };

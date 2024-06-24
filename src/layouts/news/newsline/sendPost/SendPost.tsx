@@ -11,9 +11,8 @@ export const SendPost = ({avatar}: SendPostProps) => {
             <SendMessage
                 placeholder={"Поделитесь впечатлениями здесь... (максимум 280 символов)"}
                 buttonTitle={'Отправить'}
-                iconId={'news'}
-                sendMessage={()=> {}}
-                multiline={true}/>
+                iconId={'send'}
+                sendMessage={()=> {}}/>
         </Style.SendPost>
     );
 };
